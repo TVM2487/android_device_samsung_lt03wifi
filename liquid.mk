@@ -1,9 +1,9 @@
 $(call inherit-product, device/samsung/lt03wifi/full_lt03wifi.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common LiquidSmooth stuff.
+$(call inherit-product, vendor/liquid/config/common_full_tablet_wifionly.mk)
 
-PRODUCT_NAME := cm_lt03wifi
+PRODUCT_NAME := liquid_lt03wifi
 PRODUCT_DEVICE := lt03wifi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
